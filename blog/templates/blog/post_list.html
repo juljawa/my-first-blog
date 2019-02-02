@@ -6,8 +6,9 @@
     	<div>
             <h1><a href="/">Julia's blog</a></h1>
         </div>
-        <p>Hi there!</p>
-        <p>It works!</p>
+			{% for post in posts %}
+			    <p>{{ post }}</p>
+			{% endfor %}
          <div>
             <h1><a href="/">Yaaaaaaaaay</a></h1>
         </div>
